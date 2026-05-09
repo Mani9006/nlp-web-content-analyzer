@@ -475,6 +475,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Lexical and Affective Profiling of Web Content**
+
+_An NLP pipeline combining VADER sentiment, RAKE keywords, and Flesch readability over the Common Crawl News subset_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** natural language processing, sentiment analysis, keyphrase extraction, readability, Common Crawl
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
