@@ -1,0 +1,8 @@
+flowchart LR
+    A[URL Input] --> B[BeautifulSoup Fetcher]
+    B --> C[Text Extractor]
+    C --> D[NLTK Tokenize/POS]
+    D --> E1[Sentiment]
+    D --> E2[Keyword Extraction]
+    D --> E3[Readability Scoring]
+    E1 & E2 & E3 --> F[Aggregate Report]

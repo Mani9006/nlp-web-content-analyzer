@@ -470,3 +470,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   Built with Python and curiosity.
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[URL Input] --> B[BeautifulSoup Fetcher]
+    B --> C[Text Extractor]
+    C --> D[NLTK Tokenize/POS]
+    D --> E1[Sentiment]
+    D --> E2[Keyword Extraction]
+    D --> E3[Readability Scoring]
+    E1 & E2 & E3 --> F[Aggregate Report]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**71 passing**, **0 failing**, **0 skipped** (total 71, framework: pytest)
+
+## References & Further Reading
+
+- Bird, S., Klein, E., & Loper, E. (2009). *Natural Language Processing with Python.* O'Reilly. [↗](https://www.nltk.org/book/)
+- Hutto, C. J. & Gilbert, E. (2014). *VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text.* ICWSM-14. [↗](https://ojs.aaai.org/index.php/ICWSM/article/view/14550)
+- Flesch, R. (1948). *A new readability yardstick.* Journal of Applied Psychology, 32(3), 221-233.
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/nlp-web-content-analyzer) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
